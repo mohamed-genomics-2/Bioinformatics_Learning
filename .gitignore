@@ -1,0 +1,23 @@
+# --- Bioinformatics Big Data ---
+# Ignore raw sequencing data
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Ignore alignment files (very large)
+*.sam
+*.bam
+*.cram
+
+# Ignore genome indexes
+*.fai
+*.bt2
+
+# Ignore compressed archives
+*.zip
+*.tar.gz
+*.rar
+
+# --- System Files ---
+.DS_Store
